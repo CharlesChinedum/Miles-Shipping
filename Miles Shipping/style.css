@@ -1,0 +1,120 @@
+.container-fluid {
+    padding: 0% !important;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+
+.bg-img {
+    height: auto;
+    width: 100%;
+}
+
+.navbar {
+    background-color: teal;
+}
+.btn-1:hover {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.bg-img {
+    width:100%;
+    height: auto;
+}
+
+.heading{
+    position: absolute;
+    top: 2%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: teal;
+}
+
+.sub-heading {
+    position: absolute;
+    top: 16%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color:teal;
+}
+
+.sub-heading:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 0%;
+    top:0%;
+}
+
+.aboutUs {
+    background-color:rgb(70, 172, 172);
+    width: auto;
+    color: rgba(240, 234, 234, 0.993);
+}
+
+.about {
+    padding-bottom: 13%;
+    margin: 0;
+}
+
+.sub-paragraph {
+    padding-top: 2%;
+    padding-bottom: 14%;
+}
+
+.services {
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    width: 45%;
+    border-right: solid teal 2px;
+}
+
+.sendmessage {
+    text-align: center;
+}
+
+.sendmessage:hover {
+    outline-color: green;
+    background-color: white;
+    color: teal
+}
+
+.homesection {
+    background-color:azure;
+}
+
+.homesection-1 {
+    padding-bottom: 100px;
+}
+
+.firstservice {
+    padding-left: 20px;
+}
+
+.no-gutters {
+    height: 100%;
+}
